@@ -63,7 +63,7 @@
     data: function() {
       return {
         weekdays: ['Mo','Tu','We','Th','Fr','Sa','Su'],
-        weekdayNames: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
+        weekdayNames: ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
         month: ['January','February','March','April','May','June','July','August','September','October','November','December'],
         currentDate: {
           date: 0,
