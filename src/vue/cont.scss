@@ -1,13 +1,13 @@
   @mixin calendar-layout($padding) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 10px;
     padding: $padding;
     div {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 90%;
+      height: 90px;
       width: 90%;
       color: #fff;
       border-radius: 5px;
@@ -83,7 +83,7 @@
       }
     }
     .date {
-      @include calendar-layout(10px 20px 20px);
+      @include calendar-layout(10px 10px 20px);
       background-color: rgba(0,0,0,.7);
       font-size: 2rem;
       .active {
